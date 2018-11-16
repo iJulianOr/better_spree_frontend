@@ -7,6 +7,8 @@
     "lib": "lib"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "dynamics.js": "^1.1.5",
     "vue": "^2.5.17"
   },
   "devDependencies": {},

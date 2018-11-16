@@ -1,0 +1,35 @@
+.navbar-brand {
+  background: url(http://disputebills.com/site/uploads/2015/10/dispute.png) center / contain no-repeat;
+  width: 200px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+
+    & img {
+        display:block;
+        margin:auto;
+    }
+}
+.navbar-brand {float:none;}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aligner-item {
+  max-width: 50%;
+}
+

@@ -2,15 +2,11 @@
 
 <head>
   <%= javascript_pack_tag 'home' %>
+  <%= stylesheet_pack_tag 'home' %>
 </head>
-
-<div id="app">
-  {{ message }}
-</div>
 
 <div data-hook="homepage_products">
   <% cache(cache_key_for_products) do %>
     <%= render 'spree/shared/products', products: @products %>
   <% end %>
 </div>
-

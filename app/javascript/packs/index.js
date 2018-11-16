@@ -1,1 +1,1 @@
-import Hello from './hello_vue'
+import home from './home'

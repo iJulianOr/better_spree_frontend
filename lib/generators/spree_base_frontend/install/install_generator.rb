@@ -12,7 +12,7 @@ module SpreeBaseFrontend
       def add_webpack_config
         inject_into_file 'config/webpack/environment.js', "const spreeBaseFrontend = require('./spree_base_frontend')\nenvironment.config.merge(spreeBaseFrontend)\n", 
           before: "module.exports = environment"
-        append_file 'app/javascript/packs/application.js', "import spree_base_frontend from '~spree_base_frontend/app/javascript/packs/index.js'\n"
+        append_file 'app/javascript/packs/home.js', "import spree_base_frontend from '~spree_base_frontend/app/javascript/packs/home.js'\n"
         template 'spree_base_frontend.js', 'config/webpack/spree_base_frontend.js'
       end
 

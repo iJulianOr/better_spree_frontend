@@ -1,9 +1,8 @@
 .navbar-brand {
-  background: url(http://disputebills.com/site/uploads/2015/10/dispute.png) center / contain no-repeat;
-  width: 200px;
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
+  float: none;
 }
 
 ul.nav li.dropdown:hover > ul.dropdown-menu {
@@ -21,7 +20,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         margin:auto;
     }
 }
-.navbar-brand {float:none;}
 
 .aligner {
   display: flex;
@@ -32,4 +30,3 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .aligner-item {
   max-width: 50%;
 }
-

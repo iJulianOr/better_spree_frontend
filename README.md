@@ -1,12 +1,8 @@
-# SpreeFrontend
-
-Introduction goes here.
-
 ## Installation
 
 1. Add this extension to your Gemfile with this line:
   ```ruby
-  gem 'spree_frontend', github: '[your-github-handle]/spree_frontend'
+  gem 'spree_frontend', github: 'iJulianOr/spree_frontend'
   ```
 
 2. Install the gem using Bundler:
